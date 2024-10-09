@@ -1,0 +1,31 @@
+
+1: First command (Airdrop)
+    yarn airdrop
+    yarn run v1.22.22
+    $ ts-node ./airdrop.ts
+    ✅ Success! Check out your TX here:
+        https://explorer.solana.com/tx/5VuTBikv1oqRE7rd63jxK9iwPH7n2tPRCPLdZ7vcSoJDg6EsM8xdZdKSg8ANpzcEZvDqC2C4DK2jtGWQFWneoBtz?cluster=devnet
+
+
+2: Second command (Transfer to Turbin3 wallet)
+    yarn transfer    
+    yarn run v1.22.22
+    $ ts-node ./transfer.ts
+    ✅ Success! Check out your TX here:
+        https://explorer.solana.com/tx/ui3aqvfAgeoCbPKvaLQ8m49idJ1KFR7baCPfp9gHrSsayQwVokGH1ruERspcrmz2hHZT2KkBPwMnUNL6Yi4FwAe?cluster=devnet
+
+3: Third command (Transfer to Turbin3 wallet)
+    yarn transfer    
+    yarn run v1.22.22
+    $ ts-node ./transfer.ts
+    Success! Check out your TX here:
+        ✅ https://explorer.solana.com/tx/ui3aqvfAgeoCbPKvaLQ8m49idJ1KFR7baCPfp9gHrSsayQwVokGH1ruERspcrmz2hHZT2KkBPwMnUNL6Yi4FwAe?cluster=devnet
+
+
+4: Fourth command (Execute Turbin3 Program)  
+    yarn enroll            
+    yarn run v1.22.22
+    $ ts-node ./enroll.ts
+    ✅ Success! Check out your TX here:
+        https://explorer.solana.com/tx/3wrE6Bk2Ab5XfogQNN3jZjZfN87hrzwN36j1drsDctJeUXYGsn3Qafz1GuzFwyn6JAdCyLoJKTcisfxF5aJnxLvQ?cluster=devnet
+    ✅ Successfully completed enrollment
